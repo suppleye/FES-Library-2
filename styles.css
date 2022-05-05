@@ -66,3 +66,9 @@ li{
 header{
     height: calc(100vh - 80px);
 }
+
+.header__container{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
