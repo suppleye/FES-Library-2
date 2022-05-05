@@ -11,6 +11,13 @@ nav{
     display: flex;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+    max-height: 50vh;
+    padding: 20px;
+}
+
 .nav__container{
     width: 100%;
     max-width: 1200px;
@@ -71,4 +78,48 @@ header{
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 56px;
+    color: blue;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(1px);
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.header__img--wrapper{
+    padding: 20px;
 }
